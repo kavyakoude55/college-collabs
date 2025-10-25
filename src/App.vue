@@ -1,7 +1,10 @@
-<script setup></script>
-
 <template>
-  <h1 class="bg-red-500">You did it!</h1>
+  <!-- <Navbar/> -->
+   <Login/>
+  <router-view></router-view>
 </template>
 
-<style scoped></style>
+<script setup>
+import Login from './views/Login.vue';
+import Navbar from './views/Navbar.vue';
+</script>
