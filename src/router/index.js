@@ -3,6 +3,7 @@ import Login from '@/views/Login.vue'
 import Profile from '@/views/Profile.vue'
 import Projects from '@/views/Projects.vue'
 import Task from '@/views/Task.vue'
+import Signup from '@/views/Signup.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -27,6 +28,10 @@ const router = createRouter({
     {
       path:"/Task",
       component:Task,
+    },
+    {
+      path:"/Signup",
+      component:Signup,
     },
   ],
 })
