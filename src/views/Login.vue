@@ -1,5 +1,6 @@
 <template>
     <div class="bg-[url('https://i.pinimg.com/1200x/81/a5/ac/81a5acc0c27fe29a0a7515e839caa851.jpg')] bg-no-repeat bg-cover bg-center h-screen w-screen flex items-center justify-center">
+<<<<<<< HEAD
        <div class="flex justify-center items-center min-h-90 bg-white rounded-lg">
     <div class="rounded-xl p-6 w-full h-full max-w-md">
       <h1 class="text-2xl font-bold mb-4 text-center text-blue-950">Login</h1>
@@ -16,6 +17,18 @@
         Don't have an account?
         <router-link to="/Signup" class="text-blue-500 hover:underline">Register here</router-link>
       </p>
+=======
+        <div class="bg-red-500 w-150 h-150">
+            <h1 class="text-center text-2xl mt-5 mb-5">Login</h1><hr>
+            <div class="flex items-center">
+                <h1 class="">Email</h1>
+                <input type="text"><br>
+                <h1>Password</h1>
+                <input type="text">
+            </div>
+            
+        </div>
+>>>>>>> ce0c2e3 (frontend fully developed)
     </div>
   </div>          
         </div>
